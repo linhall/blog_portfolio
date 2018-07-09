@@ -3,6 +3,7 @@ module ApplicationHelper
         def block_code(code, language)
             Pygments.highlight(code, lexer: language)
         end
+    end
     def markdown(content)
         renderer = HTMLwithPygments.new(hard_wrap: true, filter_html: true)
         options = {
