@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.4.2'
+ruby '>= 2.0.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pygments.rb', '~> 1.2.1'
 gem 'redcarpet', '~>3.4.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'friendly_id', '~> 5.2', '>= 5.2.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
