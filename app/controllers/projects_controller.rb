@@ -14,7 +14,7 @@ class ProjectsController < ApplicationController
         @project = Project.new project_params
 
         if @project.save
-            redirect_to @project, notice: "Nice Mackenzie! That project was successfully saved!"
+            redirect_to @project, notice: "Nice Lin! That project was successfully saved!"
         else
             render 'new'
         end
