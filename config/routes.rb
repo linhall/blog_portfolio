@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :projects
   get 'welcome/index'
   root 'welcome#index'
+  # get "/sign_in" => "devise/sessions#new" # custom path to login/sign_in
+  # get "/sign_up" => "devise/registrations#new"
 
   get '*path' => redirect('/')
 end
